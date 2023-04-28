@@ -115,7 +115,7 @@ while run:
             now_time=timer()
 
             if now_time - last_time<3:
-                reload=font2.render('Падашди. Перезарядка...',1,(150,0,0))
+                reload=font2.render('Подожди. Перезарядка...',1,(150,0,0))
                 window.blit(reload,(260,460))
             else:
                 num_fire=0
