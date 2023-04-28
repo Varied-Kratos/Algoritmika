@@ -151,7 +151,7 @@ while run:
             color_lifes=(255,0,0)
 
         text_lifes=font1.render(str(lifes),1,(color_lifes))
-        window.blit(text_lifes,(650,10))
+        window.blit(text_lifes,(649,10))
         display.update()
     else:
         finish=False
